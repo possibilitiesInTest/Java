@@ -3,33 +3,26 @@ package studentdatabaseapp;
 import java.util.Scanner;
 
 public class StudentDatabaseApp {
-<<<<<<< HEAD
-	
-	
-	public static void main(String[] args) {
-	Student stu1 = new Student();
-	
-	// Ask how many new users we ant to add
-	
-	
-	// Create n number of new students
-
-}
-=======
 
 	public static void main(String[] args) {
-		Student stu1 = new Student();
-		stu1.enroll();
-		stu1.payTuition(500);
-		System.out.println(stu1.toString());
+		// Ask how many new students we want to add
+		System.out.print("Enter number of new students to enroll: ");
+		Scanner in = new Scanner(System.in);
+		int numOfStudents = in.nextInt();
+		Student[] students = new Student[numOfStudents];
 
 	    // Ask how many new users we want to add
-		
+		for (int n = 0; n < numOfStudents; n++) {
+			students[n] = new Student();
+			students[n].enroll();
+			students[n].payTuition();
+		}
 		
 		// Create a number of new students
-		
+		for (int n = 0; n < numOfStudents; n++) {
+			System.out.println(students[n].toString());
+		}
 		
 	}
 
->>>>>>> 594722aa0263f558cfb618c3abf5c560e9129b7d
 }

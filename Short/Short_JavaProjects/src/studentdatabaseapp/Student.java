@@ -6,20 +6,11 @@ public class Student {
 	private String firstName;
 	private String lastName;
 	private int gradeYear;
-<<<<<<< HEAD
-	private int studentID;
-	private String courses;
-	private String tuitionBalance;
-	private int costOfCourse = 600;
-	
-=======
 	private String studentID;
 	private String courses;
 	private int tuitionBalance;
 	private static int costOfCourse = 600;
 	private static int id = 1001;
->>>>>>> 594722aa0263f558cfb618c3abf5c560e9129b7d
-	
 	// Constructor: prompt user to enter student's name and year
 	public Student() {
 		Scanner in = new Scanner(System.in);
@@ -29,27 +20,7 @@ public class Student {
 		System.out.print("Enter student last name: ");
 		this.lastName = in.nextLine();
 		
-<<<<<<< HEAD
-		System.out.print("1 - Freshmen\n2 - Sophmore\n3 - Junior\n4 - Senior\nEnter student class level: ");
-		this.gradeYear = in.nextInt();
-		System.out.println(firstName + " " + lastName + " " + gradeYear);
-	}
-	
-	
-	// Generate an ID
-	
-	
-	// View Balance
-	
-	
-	// Pay Tuition
-	
-	
-	// Show status
 
-	
-}
-=======
 		System.out.print("1 - Freshmen\n2 - Sophomore\n3 - Junior\n4- Senior\nEnter student class level: ");
 		this.gradeYear = in.nextInt();
 		
@@ -96,10 +67,11 @@ public class Student {
 			
 		
 		// Pay Tuition
-		public void payTuition(int payment) {
+		public void payTuition() {
 			viewBalance();
 			System.out.print("Enter your payment: $");
 			Scanner in = new Scanner(System.in);
+			int payment = in.nextInt();
 			tuitionBalance = tuitionBalance - payment;
 			System.out.println("Thank you for your payment of $" + payment);
 			viewBalance();
@@ -111,7 +83,6 @@ public class Student {
 					"\nGrade Level: " + gradeYear +
 					"\nCourses Enrolled: " + courses +
 					"\nBalance: $" + tuitionBalance;
- 		}
+		}
 		
 }
->>>>>>> 594722aa0263f558cfb618c3abf5c560e9129b7d
