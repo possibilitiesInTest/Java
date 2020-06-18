@@ -11,6 +11,7 @@ public class Student {
 	private int tuitionBalance;
 	private static int costOfCourse = 600;
 	private static int id = 1001;
+	
 	// Constructor: prompt user to enter student's name and year
 	public Student() {
 		Scanner in = new Scanner(System.in);
