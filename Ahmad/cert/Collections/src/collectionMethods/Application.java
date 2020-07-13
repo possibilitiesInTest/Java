@@ -19,8 +19,6 @@ public class Application {
 		hashSet.add(new Employee("Paula", 4000, "IT"));
 		hashSet.add(new Employee("Joan", 2000, "Maint"));
 
-		
-
 		ArrayList<Employee> myList = new ArrayList<Employee>(hashSet);
 		
 		Collections.sort(myList);
