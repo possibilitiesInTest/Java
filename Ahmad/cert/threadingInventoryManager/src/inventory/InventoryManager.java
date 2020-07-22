@@ -2,10 +2,11 @@ package inventory;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class InventoryManager {
 
-	List<Product> soldProductList = new ArrayList<Product>();
+	List<Product> soldProductList = new CopyOnWriteArrayList<Product>();
 	List<Product> purchasedProductsList = new ArrayList<Product>();
 	
 	public void populateSoldProducts() {
