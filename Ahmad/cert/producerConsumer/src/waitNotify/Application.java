@@ -1,4 +1,4 @@
-package producerConsumer;
+package waitNotify;
 
 import java.util.ArrayList;
 import java.util.List;
