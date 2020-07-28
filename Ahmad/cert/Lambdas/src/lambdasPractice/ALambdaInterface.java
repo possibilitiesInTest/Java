@@ -1,5 +1,8 @@
 package lambdasPractice;
 
+@FunctionalInterface
 public interface ALambdaInterface {
+	//public void walk();
+
 	public void someMethod();
 }

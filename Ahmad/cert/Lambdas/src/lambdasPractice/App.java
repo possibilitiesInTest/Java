@@ -24,18 +24,120 @@ public class App {
 		
 		// lambda expression
 		// walker(() -> System.out.println("Custom object walking ...."));
-		ALambdaInterface aBlockOfCode = () -> {
-			System.out.println("Custom obejct walking ....");
+////		ALambdaInterface aBlockOfCode = () -> {
+////			System.out.println("Custom object walking ....");
+////		};
+		
+		Walkable aBlockOfCode = () -> {
+			System.out.println("Custom object walking...");
+			System.out.println("the object tripped...");
 		};
 		
+		walker(aBlockOfCode);
+		ALambdaInterface helloVar = () -> System.out.println("hello there");
+		helloVar.someMethod();
+		
+		
+		Calculate sumVar = (a, b) -> a + b;
+		System.out.println(sumVar.compute(4, 6));
+		
+		
+		////
+//		public int sum(int arg1, int arg2) {
+//			return arg1+arg2;
+//		}
+		
+		
+		// public method
+//		public int nonZeroDivide(int arg1, int arg2) {
+//			if(arg1==0) {
+//				return 0;
+//			}
+//			return arg1/arg2;
+//		}
+		
+		// lambda expression
+		Calculate nonZeroDivider = (a, b) -> {
+			if(a == 0 ) {
+				return 0;
+			}
+			return a/b;
+		};
+		
+		System.out.println(nonZeroDivider.compute(10,2));
+		
+		//StringWorker reverser = (s) ->  {
+		MyGenericInterface<String> reverser = (s) ->  {
+			String result ="";
+			for(int i = s.length()-1; i >=0; i--) {
+				result += s.charAt(i);	
+				}
+			return result;
+			};
+		
+			
+		NumberWorker computedNumber = (n) -> {
+			int result = 1;
+			for(int i =1; i<= n; i++) {
+				result =i*result;
+			}
+			return result;
+		};		
+		
+		System.out.println(reverser.work("Vehicle"));
+		System.out.println(computedNumber.compute(4));
 	}
+	
+	// public factorial method
+	public int factorial(int num) {
+		int result = 1;
+		for(int i =1; i<= num; i++) {
+			result =i*result;
+		}
+		return result;
+	}
+
+	
+	
+	
+		
+	
+//	public void sayHello() {
+//		System.out.println("hello there");
+//	}
 	
 //	public static void walker(Human human) {
 //		human.walk();
 //	}
 	
+	
+	// public reverse-String method
+//	public String reverse(String str) {
+//		String result = "";
+//		for(int i = str.length() - 1; i >=0; i--) {
+//			result = str +str.charAt(i);
+//		}
+//		return result;
+	
+
+	
 	public static void walker(Walkable walkableEntity) {
 	walkableEntity.walk();
 	}
 }
+
+interface Calculate{
+	public int compute(int a, int b);
+}
+
+interface StringWorker  {
+	public String work(String str);
+}
+
+interface NumberWorker{
+	public int compute(int a);
+}
 		
+interface MyGenericInterface<T>{
+	public T work(T t);
+}
