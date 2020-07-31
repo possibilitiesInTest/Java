@@ -1,0 +1,12 @@
+package threadPools;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class ThreadPoolDemo {
+	
+		ExecutorService executor = Executors.newFixedThreadPool(2);
+	
+		Runnable processor = new MessageProcessor(2);
+	}
+}

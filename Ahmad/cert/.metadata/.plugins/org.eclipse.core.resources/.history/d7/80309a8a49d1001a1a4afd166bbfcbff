@@ -1,0 +1,48 @@
+package streamsPractical.files;
+
+import java.util.Arrays;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		// Average of squares of an int array
+		Arrays.stream(new int[] {2, 4, 6, 8, 10})
+			.map((x) -> x * x)
+			.average()
+			ifPresent(n -> System.out.print(n));
+		System.out.println();
+		
+		
+		// Stream from Array, sort, filter and print
+		String[] items = {"car", "computer", "toothpaste", "box", "pencil", "tent", "door", "toy"};
+		Stream.of(items)
+		.filter((x) -> x.startsWith("t"))
+		.sorted().forEach(x -> System.out.println(x + ", "));
+		System.out.println();
+		
+		// Stream.of, sorted and findFirst
+		Stream.of("Hello", "bottle", "Africa")
+		.sorted()
+		.findFirst()
+		.ifPresent((x) -> System.out.println(x));
+		
+		
+		// Integer stream with sum
+		int val = IntStream
+				.range(1, 5)
+				.sum();
+		System.out.println(val);
+		
+		
+		// Integer Stream with Skip
+		IntStream
+		.range(1, 10)
+		.skip(5) // skip 5 elements of the stream
+		.forEach((x) -> System.out.println(x));
+		System.out.println();
+	}
+
+}
