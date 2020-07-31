@@ -1,0 +1,24 @@
+package streamsPractical.files;
+
+import java.util.stream.IntStream;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		// Integer stream with sum
+		int val = IntStream
+				.range(1, 5)
+				.sum();
+		System.out.println(val);
+		
+		
+		// Integer Stream with Skip
+		IntStream
+		.range(1, 10)
+		.skip(5) // skip 5 elements of the stream
+		.forEach((x) -> System.out.println(x));
+		System.out.println();
+	}
+
+}

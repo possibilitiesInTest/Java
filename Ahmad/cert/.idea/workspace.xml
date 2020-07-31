@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0388c12-2787-4bc4-9de9-ed59bbc21af3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/producerConsumer/src/producerConsumer/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/producerConsumer/src/waitNotify/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producerConsumer/src/producerConsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/producerConsumer/src/waitNotify/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producerConsumer/src/producerConsumer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/producerConsumer/src/waitNotify/Producer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\User\Documents\git\Java\Ahmad\cert\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1f5yQ6JbEHTZWRKly9SdOk7t7tr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/jre-9.0.4/lib/deploy.jar" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Named" type="JarApplication">
+      <option name="WORKING_DIRECTORY" value="C:\Users\User\Documents\git\Java\Ahmad\cert" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jre-9.0.4" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JarApplication">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jre-9.0.4" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0388c12-2787-4bc4-9de9-ed59bbc21af3" name="Default Changelist" comment="" />
+      <created>1595522228059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595522228059</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="19" key="#Project_Structure" timestamp="1595524857668">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="19" key="#Project_Structure/0.0.1280.720@0.0.1280.720" timestamp="1595524857668" />
+    <state x="0" y="16" width="923" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595524647019">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="16" width="923" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1595524647019" />
+    <state x="383" y="250" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1595522252250">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="383" y="250" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.720@0.0.1280.720" timestamp="1595522252250" />
+    <state x="12" y="0" key="CommitChangelistDialog2" timestamp="1595522976171">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="12" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1595522976171" />
+    <state x="326" y="116" key="FileChooserDialogImpl" timestamp="1595524604425">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="326" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1595524604425" />
+    <state width="570" height="201" key="GridCell.Tab.0.bottom" timestamp="1595524861635">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="570" height="201" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1595524861635" />
+    <state width="570" height="201" key="GridCell.Tab.0.center" timestamp="1595524861634">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="570" height="201" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1595524861634" />
+    <state width="570" height="201" key="GridCell.Tab.0.left" timestamp="1595524861634">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="570" height="201" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1595524861634" />
+    <state width="570" height="201" key="GridCell.Tab.0.right" timestamp="1595524861635">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="570" height="201" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1595524861635" />
+    <state width="570" height="201" key="GridCell.Tab.1.bottom" timestamp="1595524861635">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="570" height="201" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1595524861635" />
+    <state width="570" height="201" key="GridCell.Tab.1.center" timestamp="1595524861635">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="570" height="201" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1595524861635" />
+    <state width="570" height="201" key="GridCell.Tab.1.left" timestamp="1595524861635">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="570" height="201" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1595524861635" />
+    <state width="570" height="201" key="GridCell.Tab.1.right" timestamp="1595524861635">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="570" height="201" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1595524861635" />
+    <state x="0" y="0" width="695" height="720" key="SettingsEditor" timestamp="1595524212239">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="0" width="695" height="720" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1595524212239" />
+  </component>
+</project>

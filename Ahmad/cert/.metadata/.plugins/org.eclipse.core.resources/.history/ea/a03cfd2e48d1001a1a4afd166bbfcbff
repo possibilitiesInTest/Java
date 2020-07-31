@@ -1,0 +1,16 @@
+package streamsPractical.files;
+
+import java.util.stream.IntStream;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		// Integer Stream with Skip
+		IntStream
+		.range(1, 10)
+		.forEach((x) -> System.out.println(x));
+		System.out.println();
+	}
+
+}
