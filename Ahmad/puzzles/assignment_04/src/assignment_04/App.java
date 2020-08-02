@@ -19,7 +19,6 @@ public class App {
 	 */
 	public static boolean birdsSinging(int temp, boolean isSummer) {
 		
-	
 		int maxTemp = 91;
 		int minTemp = 59;
 		
