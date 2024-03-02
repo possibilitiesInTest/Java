@@ -29,7 +29,7 @@ public class App {
 		if(fizz) return "Fizz!";
 		if(buzz) return "Buzz!";
 		
-
+		return n + "!";
 		}
 
 	
